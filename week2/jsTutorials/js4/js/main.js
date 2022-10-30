@@ -1,11 +1,14 @@
 
+ class Pizza {
+  constructor(){
+    this.type = "Cheese Pizza";
+    this.type = "orginal";
+  }
+  cook(){
+    console.log(`Cooking Pizza Type: ${this.type}`);
+  }
+ }
 
-//
-const myObject = {name : "Dave"};
-console.log(myObject);
-
-const testObj = {
-  alive: true,
-  answer: 42,
-  hobbies: ["eat","sleep"]
-};
+ console.log("Hello how are you doing?");
+ const myPizza1 = new Pizza();
+myPizza1.cook();
